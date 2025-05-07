@@ -8,7 +8,7 @@
 	font-size: 16px;
 	color: var(--clr-common-white);
 	font-weight: 600;
-	background: var(--clr-theme-1);
+	background: #FFD700 !important;
 	border: 1px solid var(--clr-theme-1);
 	height: 60px;
 	display: inline-flex;
@@ -23,7 +23,7 @@
 	white-space: nowrap;
 
 	&:hover {
-		color: var(--clr-theme-1);
+		color: #FFD700	!important;
 		background: var(--clr-common-white);
 	}
 }
@@ -52,7 +52,7 @@
 
 	&:hover {
 		color: var(--clr-common-white);
-		background: var(--clr-theme-2);
+		background: #FFD700;
 		border-color: var(--clr-theme-1);
 
 
@@ -69,7 +69,7 @@
 		border: 1px solid #4F4F4F;
 
 		&:hover {
-			border-color: var(--clr-theme-2);
+			border-color: #FFD700;
 		}
 	}
 }
@@ -103,7 +103,7 @@
 		width: 430px;
 		top: 50%;
 		left: 50%;
-		background: var(--clr-theme-2);
+		background: #FFD700;
 		border-radius: 50%;
 		transform: translateX(-22%) translateY(-42%) scale(0);
 		-moz-transition: all 0.5s ease-out 0s;
@@ -121,7 +121,7 @@
 	&::after {
 		position: absolute;
 		content: "";
-		background: var(--clr-theme-2);
+		background: #FFD700;
 		height: 34px;
 		width: 36px;
 		border-radius: 15px;
@@ -245,7 +245,7 @@
 	}
 
 	&:hover {
-		color: var(--clr-theme-2);
+		color: #FFD700;
 
 		.btn-icon {
 			i {
@@ -277,7 +277,7 @@
 		right: auto;
 		left: 0;
 		bottom: -4px;
-		background: var(--clr-theme-2);
+		background: #FFD700;
 		@include transition(.5s);
 	}
 }
@@ -290,7 +290,7 @@
 	right: auto;
 	left: 0;
 	bottom: -4px;
-	background: var(--clr-theme-2);
+	background: #FFD700;
 	-webkit-transition: all 0.5s ease-out 0s;
 	-moz-transition: all 0.5s ease-out 0s;
 	-ms-transition: all 0.5s ease-out 0s;
@@ -343,7 +343,7 @@
 			color: var(--clr-theme-1);
 
 			svg * {
-				fill: var(--clr-theme-2);
+				fill: #FFD700;
 			}
 
 			i {
@@ -363,7 +363,7 @@
 		border-radius: 50%;
 		font-size: 38px;
 		font-weight: 400;
-		background: var(--clr-theme-2);
+		background: #FFD700;
 		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -380,8 +380,8 @@
 
 	&.is-green {
 		.icon-box {
-			background: var(--clr-theme-2);
-			border-color: var(--clr-theme-2);
+			background: #FFD700;
+			border-color: #FFD700;
 			color: var(--clr-common-white);
 			transform: rotate(-45deg);
 
@@ -454,7 +454,7 @@
 
 	&:hover {
 		color: var(--clr-common-white);
-		background: var(--clr-theme-2);
+		background: #FFD700;
 	}
 
 	i {
@@ -474,13 +474,13 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 26px;
-	color: var(--clr-theme-2);
+	color: #FFD700;
 	background: rgba(20, 207, 147, 0.15);
 	@include transition(0.3s);
 
 	&:hover {
 		color: var(--clr-common-white);
-		background: var(--clr-theme-2);
+		background: #FFD700;
 	}
 
 	i {
@@ -531,7 +531,7 @@
 	gap: 15px;
 
 	&:hover {
-		color: var(--clr-theme-2);
+		color: #FFD700;
 	}
 }
 
@@ -543,12 +543,12 @@
 	line-height: 1;
 
 	&:hover {
-		color: var(--clr-theme-2);
+		color: #FFD700;
 
 		span {
 			&:before {
 				transform: scaleX(1);
-				background: var(--clr-theme-2);
+				background: #FFD700;
 			}
 		}
 	}
@@ -625,7 +625,7 @@
 	}
 
 	&:after {
-		background-color: #14CF93;
+		background-color: #FFD700;
 
 	}
 
@@ -828,14 +828,14 @@
 	background-color: var(--clr-common-white);
 	display: inline-flex;
 	border-radius: 50%;
-	color: var(--clr-theme-2);
+	color: #FFD700;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
 	animation: pulse 2s infinite;
 
 	&:hover {
-		background-color: var(--clr-theme-2);
+		background-color: #FFD700;
 		color: var(--clr-theme-1);
 	}
 }
@@ -1076,7 +1076,7 @@
 
 	&:hover {
 		color: var(--clr-common-white);
-		background: var(--clr-theme-2);
+		background: #FFD700;
 		border-color: transparent;
 
 		.pen-icon {
@@ -1113,8 +1113,8 @@
 
 	&:hover {
 		color: var(--clr-common-white);
-		background: var(--clr-theme-2);
-		border-color: var(--clr-theme-2);
+		background: #FFD700;
+		border-color: #FFD700;
 
 		.btn-icon {
 			i {
@@ -1141,8 +1141,8 @@
 
 	&:hover {
 		color: var(--clr-common-white);
-		background: var(--clr-theme-2);
-		border-color: var(--clr-theme-2);
+		background: #FFD700;
+		border-color: #FFD700;
 	}
 }
 
