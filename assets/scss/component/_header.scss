@@ -90,12 +90,12 @@
 				@include transition(.3s);
 		
 				* {
-					fill: var(--clr-common-black);
+					fill: #fff;
 					@include transition(.3s);
 				}
 		
 				&:hover * {
-					fill: var(--clr-theme-2)
+					fill: #fff;
 				}
 			}
 		}
