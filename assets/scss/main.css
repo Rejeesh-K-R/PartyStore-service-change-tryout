@@ -2897,7 +2897,7 @@ Hero-6 Animation
   transition: all 0.3s ease-out 0s;
 }
 .header-2__main.sticky .has-black svg * {
-  fill: var(--clr-common-black);
+  fill: var(--clr-common-white);
   transition: all 0.3s ease-out 0s;
 }
 .header-2__main.sticky .has-black svg:hover * {
