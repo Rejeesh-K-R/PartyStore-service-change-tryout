@@ -59,6 +59,56 @@
 	44. sign css
 
 **********************************************/
+@import 'component/about';
+@import 'component/accordion';
+@import 'component/animation';
+@import 'component/award';
+@import 'component/background';
+@import 'component/banner';
+@import 'component/blog';
+@import 'component/brand';
+@import 'component/buttons';
+@import 'component/capabilities';
+@import 'component/choose';
+@import 'component/common';
+@import 'component/contact';
+@import 'component/counter';
+@import 'component/cover';
+@import 'component/cta';
+@import 'component/cursor';
+@import 'component/discuss';
+@import 'component/fact';
+@import 'component/features';
+@import 'component/footer';
+@import 'component/gallery';
+
+
+@import 'component/header';
+@import 'component/hero';
+@import 'component/history';
+@import 'component/idea';
+@import 'component/intro';
+@import 'component/menu';
+@import 'component/page-title';
+@import 'component/portfolio';
+@import 'component/preloader';
+@import 'component/pricing';
+@import 'component/process';
+@import 'component/progress-bar';
+@import 'component/project';
+
+@import 'component/section-title';
+@import 'component/services';
+@import 'component/step';
+@import 'component/strategy';
+@import 'component/team';
+@import 'component/testimonial';
+@import 'component/theme-dark';
+@import 'component/video';
+@import 'component/work';
+@import 'component/sign';
+
+
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Tenor+Sans&display=swap");
 :root {
   /**
